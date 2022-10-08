@@ -1,0 +1,63 @@
+.cta-area {
+    h2 {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .cta-desc {
+        padding: 0px 250px;
+    }
+}
+
+.input-full {
+    @include input;
+    background: #fff;
+    max-width: 360px;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+    &::placeholder {
+        text-transform: capitalize;
+        color: #888888;
+        font-size: 14px;
+        line-height: 14px;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:575px) {
+    .cta-area h2 {
+
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .cta-area .cta-desc {
+        padding: 0px 0px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:768px) {
+    .cta-area h2 {
+
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .cta-area .cta-desc {
+        padding: 0px 0px;
+    }
+}
+
+@media all and (min-width:992px) and (max-width:1200px) {
+    .cta-area h2 {
+
+        font-size: 30px;
+        line-height: 40px;
+
+    }
+
+    .cta-area .cta-desc {
+        padding: 0px 150px;
+    }
+}

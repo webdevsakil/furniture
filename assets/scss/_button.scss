@@ -1,0 +1,33 @@
+.theme-btn {
+    @include button;
+}
+
+.theme-btn-border {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+    padding: 17px 40px;
+    border: 2px solid #000000;
+
+    &:hover {
+        background: #000000;
+        color: #fff;
+    }
+}
+
+.theme-btn-dark {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+    background: #000000;
+    padding: 13px 25px;
+    color: #fff;
+    border-radius: 2px;
+    margin-left: 10px;
+    border: 1px solid #000000;
+    &:hover {
+        color: #000000;
+        background: transparent;
+    }
+}
