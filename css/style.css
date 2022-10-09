@@ -222,6 +222,13 @@ label {
   z-index: 999;
 }
 
+.close-btn button {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+}
+
 .header-area ul {
   list-style-type: none;
   padding: 0px;
